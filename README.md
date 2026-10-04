@@ -1,38 +1,47 @@
 # introduction to current repo
-This is an introduction to current repository
+This is an introduction to current repository.
+
+**For a quick start, go to `demo.ipynb`.**
+
+# Intro to files and directories
+## `demo.ipynb`
+A quick start to the OctoNet's data downloading, loading and visualization.
+
 ## `cut_csv_process/`
 1. contains code and intermediate results for updating cut_manual.csv from previous version
 2. not used in visualization/data loading
 
-## `downloaded_octonet_oneuser/`
-1. downloaded data for visualization
+## `mocap_processing/`
+1. Processes raw mocap data and output poses (key points).
 
+## `models/`; `models.py`
+1. baseline models for OctoNet.
+
+<!-- ## `downloaded_octonet_oneuser/`
+1. downloaded data for visualization -->
 ## `OctoNet/`
 1. OctoNet official GitHub repo, contains old data loading and visualization code.
 
 <!-- ## `unused`
 1. unused files. irrelevant but should be kept for now. -->
-
-## `viz_output`
-1. visualization output, if any, can be saved here.
-
+<!-- ## `viz_output`
+1. visualization output, if any, can be saved here. -->
 ## `config_oneuser.json`
-1. config file for data download. not useful for visualization
+1. Example config file for data download. 
 
 ## `cut_manual.csv`
-1. metadata about the files
+1. Metadata about the files. Note that this cut_manual.csv is updated to adapt to the updated filenames and file paths of OctoNet.
 
-# `mocap_convert.py`
-1. converts mocap.csv into pkl pose.
+## `mocap_convert.py`
+1. Converts mocap.csv into pkl pose.
 
 ## `streaming.py`
-1. for downloading the data according to the config file
+1. For downloading the data according to the config file.
 
 ## `unzip_commands.sh`
-1. for unzipping downloaded zip files.
+1. For unzipping downloaded zip files.
 
 ## `data_loader_new.py`
-
 Loads the prepared recording in `downloaded_octonet_oneuser/` (user 1, `airdrum`, timestamp `20240519182852`) using the matching row in `cut_manual.csv`.
 
 ```python
