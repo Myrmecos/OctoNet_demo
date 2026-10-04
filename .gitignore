@@ -1,0 +1,25 @@
+# dataset
+downloaded_octonet
+downloaded_octonet_oneuser
+OctoNet
+cut_manual.csv
+
+# outputs
+viz_output
+unused
+
+# mocap_processing
+mocap_processing/_pycache_/
+mocap_processing/mocap_converted/*
+mocap_processing/mocap_ori/*
+mocap_processing/mocap_pose_example.npy
+mocap_processing/mocap_raw_example.csv
+
+# models
+*.pyc
+models/weights/*
+models/cache/*
+octonet_entire
+README_hidden.md
+__pycache__
+**/__pycache__

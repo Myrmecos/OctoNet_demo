@@ -1,0 +1,158 @@
+[
+  {
+    "modality": "IRA",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/IRA_resnet18.pt",
+    "best_epoch": 6,
+    "best_val_accuracy": 0.061452513966480445,
+    "test": {
+      "loss": 4.095517675500167,
+      "accuracy": 0.04802631578947368,
+      "macro_recall": 0.03194804489612579,
+      "count": 1520
+    }
+  },
+  {
+    "modality": "wifi",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/wifi_resnet18.pt",
+    "best_epoch": 4,
+    "best_val_accuracy": 0.08285163776493257,
+    "test": {
+      "loss": 3.7621826217743104,
+      "accuracy": 0.06078824315297261,
+      "macro_recall": 0.03852250427007675,
+      "count": 1497
+    }
+  },
+  {
+    "modality": "uwb",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/uwb_resnet18.pt",
+    "best_epoch": 8,
+    "best_val_accuracy": 0.13966480446927373,
+    "test": {
+      "loss": 3.3268992725171542,
+      "accuracy": 0.14671052631578949,
+      "macro_recall": 0.09614118188619614,
+      "count": 1520
+    }
+  },
+  {
+    "modality": "mmWave",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/mmWave_resnet18.pt",
+    "best_epoch": 1,
+    "best_val_accuracy": 0.017964071856287425,
+    "test": {
+      "loss": 4.3708327651762255,
+      "accuracy": 0.016517549896765314,
+      "macro_recall": 0.01572318747639656,
+      "count": 1453
+    }
+  },
+  {
+    "modality": "ToF",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/ToF_resnet18.pt",
+    "best_epoch": 3,
+    "best_val_accuracy": 0.1452513966480447,
+    "test": {
+      "loss": 3.7557793190604762,
+      "accuracy": 0.12960526315789472,
+      "macro_recall": 0.10827992111444473,
+      "count": 1520
+    }
+  },
+  {
+    "modality": "polar",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/polar_resnet18.pt",
+    "best_epoch": 5,
+    "best_val_accuracy": 0.0782122905027933,
+    "test": {
+      "loss": 4.036711489526849,
+      "accuracy": 0.07697368421052632,
+      "macro_recall": 0.03826270252466202,
+      "count": 1520
+    }
+  },
+  {
+    "modality": "vayyar",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/vayyar_resnet18.pt",
+    "best_epoch": 4,
+    "best_val_accuracy": 0.1154562383612663,
+    "test": {
+      "loss": 4.8758846348816975,
+      "accuracy": 0.06905710491367861,
+      "macro_recall": 0.022452829405665398,
+      "count": 1506
+    }
+  },
+  {
+    "modality": "seekThermal",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/seekThermal_resnet18.pt",
+    "best_epoch": 4,
+    "best_val_accuracy": 0.2774674115456238,
+    "test": {
+      "loss": 3.1105774139103137,
+      "accuracy": 0.24736842105263157,
+      "macro_recall": 0.20741847157478333,
+      "count": 1520
+    }
+  },
+  {
+    "modality": "depthCamera",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/depthCamera_resnet18.pt",
+    "best_epoch": 5,
+    "best_val_accuracy": 0.2383612662942272,
+    "test": {
+      "loss": 3.479336194897015,
+      "accuracy": 0.20996677740863787,
+      "macro_recall": 0.1701190173625946,
+      "count": 1505
+    }
+  },
+  {
+    "modality": "acoustic",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/acoustic_resnet18.pt",
+    "best_epoch": 7,
+    "best_val_accuracy": 0.09416195856873823,
+    "test": {
+      "loss": 3.9248468424144543,
+      "accuracy": 0.09210526315789473,
+      "macro_recall": 0.0941234603524208,
+      "count": 1520
+    }
+  },
+  {
+    "modality": "imu",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/imu_resnet18.pt",
+    "best_epoch": 8,
+    "best_val_accuracy": 0.4818355640535373,
+    "test": {
+      "loss": 2.238688310512306,
+      "accuracy": 0.45178335535006603,
+      "macro_recall": 0.4185206890106201,
+      "count": 1514
+    }
+  },
+  {
+    "modality": "mocap",
+    "activities": 64,
+    "weights": "/home/xuan/OctoNet_demo/models/weights/mocap_resnet18.pt",
+    "best_epoch": 8,
+    "best_val_accuracy": 0.6797020484171322,
+    "test": {
+      "loss": 1.180055456216398,
+      "accuracy": 0.6710526315789473,
+      "macro_recall": 0.657272458076477,
+      "count": 1520
+    }
+  }
+]
