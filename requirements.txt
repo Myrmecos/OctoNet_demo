@@ -1,0 +1,7 @@
+# Runtime dependencies for the OctoNet dataset download, loader, visualizer, and demo notebook
+numpy
+opencv-python
+matplotlib
+huggingface_hub
+tqdm
+jupyter
