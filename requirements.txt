@@ -5,3 +5,8 @@ matplotlib
 huggingface_hub
 tqdm
 jupyter
+pandas
+torch
+torchcodec
+torchaudio
+soundfile

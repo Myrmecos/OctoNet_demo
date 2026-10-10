@@ -379,10 +379,10 @@ def _acoustic_start(log_path):
 
 
 def _read_wav(path):
-    import torchaudio
+    import soundfile
 
-    waveform, sample_rate = torchaudio.load(str(path))
-    mono = waveform.mean(dim=0).numpy().astype(np.float32)
+    waveform, sample_rate = soundfile.read(path, dtype="float32", always_2d=True)
+    mono = waveform.mean(axis=1, dtype=np.float32)
     return mono, int(sample_rate)
 
 

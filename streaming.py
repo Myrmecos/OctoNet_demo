@@ -12,8 +12,8 @@ from tqdm import tqdm
 print(whoami())
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_CONFIG = ROOT / "config_oneuser.json"
-DEFAULT_LOCAL_DIR = ROOT / "downloaded_octonet_oneuser"
+DEFAULT_CONFIG = ROOT / "config.json"
+DEFAULT_LOCAL_DIR = ROOT / "downloaded_data"
 
 def load_config(config_path):
     with open(config_path, "r") as f:
